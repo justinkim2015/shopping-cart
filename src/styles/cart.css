@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 20%;
-  border: 2px black solid;
+  border: 1px black solid;
 }
 
 .cart-item {
@@ -16,7 +16,7 @@
 
 #checkout {
   padding: 1.5rem;
-  border: 2px black solid;
+  border: 1px black solid;
 }
 
 #checkout:hover {
@@ -35,5 +35,12 @@
 #total {
   text-align: center;
   padding: 1rem;
-  border: 0.5px black solid;
+  font-weight: 900;
+}
+
+#cart-number {
+  font-weight: 800;
+  text-align: center;
+  margin: 2rem;
+  font-size: 22px;
 }

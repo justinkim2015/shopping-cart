@@ -4,11 +4,12 @@ function Cart() {
   return (
     <div id="cart">
       <ul id='cart-list'>
-        <li class='cart-item'>Tooth - $5</li>
-        <li class='cart-item'>Jake - $15</li>
-        <li class='cart-item'>Humidifier - $55</li>
-        <li class='cart-item'>Water - $500000</li>
-        <li class='cart-item'>Coffee - FREE</li>
+        <h2 id='cart-number'>You have 5 items in your cart!</h2>
+        <li className='cart-item'>Tooth - $5</li>
+        <li className='cart-item'>Jake - $15</li>
+        <li className='cart-item'>Humidifier - $55</li>
+        <li className='cart-item'>Water - $500000</li>
+        <li className='cart-item'>Coffee - FREE</li>
       </ul>
 
       <div id="bottom-cart">

@@ -1,0 +1,52 @@
+#all-items {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 13vw 13vw 13vw 13vw 13vw;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 35vh;
+  width: 13vw;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 13vw;
+  border: 1px solid black;
+}
+
+.product-name {
+  margin-top: 1rem;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.buy-form {
+  display: flex;
+  max-width: 13vw;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.number {
+  max-width: 2vw;
+}
+
+.add {
+  max-width: 8vw;
+  font-size: 18px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
