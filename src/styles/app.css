@@ -18,3 +18,13 @@
 #subgreeting {
   font-size: 20px;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  font-size: 32px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

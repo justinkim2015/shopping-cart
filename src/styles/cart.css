@@ -1,0 +1,39 @@
+#cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  border: 2px black solid;
+}
+
+.cart-item {
+  margin: 2rem;
+}
+
+.cart-item:hover {
+  text-decoration: underline;
+}
+
+#checkout {
+  padding: 1.5rem;
+  border: 2px black solid;
+}
+
+#checkout:hover {
+  background-color: grey;
+}
+
+#items {
+  width: 80%;
+}
+
+#bottom-cart {
+  display: flex;
+  flex-direction: column;
+}
+
+#total {
+  text-align: center;
+  padding: 1rem;
+  border: 0.5px black solid;
+}

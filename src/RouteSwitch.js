@@ -9,7 +9,6 @@ const RouteSwitch = () => {
   return (
     <BrowserRouter>
       <Navbar />
-
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/shop' element={<Shop />} />
