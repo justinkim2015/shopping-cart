@@ -17,11 +17,20 @@ function Shop() {
                   ]
 
   const [items] = useState(products);
-  
+  const [cart, setCart] = useState([]);
+
+  const addToCart = (info) => {
+    if(info.quantity <= 0 || info.quantity.isNaN) {
+      return
+    } else {
+      setCart([...cart, info])
+    }
+  };
+
   return (
     <div id="shop">
       < Cart />
-      < Items items={items}/>
+      < Items items={items} addToCart={addToCart}/>
     </div>
   );
 }
